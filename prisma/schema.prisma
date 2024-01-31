@@ -78,7 +78,7 @@ model Subscription {
   subreddit   Subreddit @relation(fields: [subredditId], references: [id])
   subredditId String
 
-  @@index([userId, subredditId], name: "compund_index")
+  @@index([userId, subredditId], name: "userId_subredditId")
 }
 
 model Post {
