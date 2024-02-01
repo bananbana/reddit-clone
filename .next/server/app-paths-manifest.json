@@ -1,4 +1,5 @@
 {
-  "/api/uploadthing/route": "app/api/uploadthing/route.js",
-  "/r/[slug]/submit/page": "app/r/[slug]/submit/page.js"
+  "/api/subreddit/post/create/route": "app/api/subreddit/post/create/route.js",
+  "/r/[slug]/submit/page": "app/r/[slug]/submit/page.js",
+  "/r/[slug]/page": "app/r/[slug]/page.js"
 }
