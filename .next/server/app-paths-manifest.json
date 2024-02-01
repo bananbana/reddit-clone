@@ -1,8 +1,4 @@
 {
-  "/@authModal/(.)sign-in/page": "app/@authModal/(.)sign-in/page.js",
-  "/(auth)/sign-in/page": "app/(auth)/sign-in/page.js",
-  "/@authModal/(.)sign-up/page": "app/@authModal/(.)sign-up/page.js",
-  "/page": "app/page.js",
-  "/api/subreddit/unsubscribe/route": "app/api/subreddit/unsubscribe/route.js",
-  "/r/[slug]/page": "app/r/[slug]/page.js"
+  "/api/uploadthing/route": "app/api/uploadthing/route.js",
+  "/r/[slug]/submit/page": "app/r/[slug]/submit/page.js"
 }
