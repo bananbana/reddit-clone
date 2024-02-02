@@ -122,7 +122,7 @@ model Vote {
   postId String
   type   VoteType
 
-  @@index([userId, postId], name: "composite_index")
+  @@index(fields: [userId, postId], name: "userId_postId")
 }
 
 model CommentVote {
