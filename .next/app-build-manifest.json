@@ -11,40 +11,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/@authModal/default.js"
     ],
+    "/r/[slug]/post/[postId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/r/[slug]/post/[postId]/page.js"
+    ],
     "/r/[slug]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/r/[slug]/layout.js"
     ],
-    "/r/[slug]/submit/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/r/[slug]/submit/page.js"
-    ],
-    "/r/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/r/[slug]/page.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
-    ],
-    "/@authModal/(.)sign-in/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/@authModal/(.)sign-in/page.js"
-    ],
-    "/r/create/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/r/create/page.js"
-    ],
-    "/r/[slug]/post/[postId]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/r/[slug]/post/[postId]/page.js"
     ]
   }
 }
