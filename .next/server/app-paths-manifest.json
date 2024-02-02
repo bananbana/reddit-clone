@@ -1,8 +1,8 @@
 {
+  "/r/create/page": "app/r/create/page.js",
   "/page": "app/page.js",
-  "/api/posts/route": "app/api/posts/route.js",
-  "/api/subreddit/post/vote/route": "app/api/subreddit/post/vote/route.js",
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/r/[slug]/submit/page": "app/r/[slug]/submit/page.js",
-  "/r/[slug]/page": "app/r/[slug]/page.js"
+  "/r/[slug]/page": "app/r/[slug]/page.js",
+  "/r/[slug]/post/[postId]/page": "app/r/[slug]/post/[postId]/page.js"
 }

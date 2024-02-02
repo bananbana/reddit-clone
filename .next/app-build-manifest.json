@@ -35,6 +35,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/@authModal/(.)sign-in/page.js"
+    ],
+    "/r/create/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/r/create/page.js"
+    ],
+    "/r/[slug]/post/[postId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/r/[slug]/post/[postId]/page.js"
     ]
   }
 }
