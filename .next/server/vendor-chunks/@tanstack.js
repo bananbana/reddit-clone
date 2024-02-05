@@ -261,6 +261,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "(ssr)/./node_modules/@tanstack/react-query/build/lib/useQuery.mjs":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@tanstack/react-query/build/lib/useQuery.mjs ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   useQuery: () => (/* binding */ useQuery)\n/* harmony export */ });\n/* harmony import */ var _tanstack_query_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @tanstack/query-core */ \"(ssr)/./node_modules/@tanstack/query-core/build/lib/utils.mjs\");\n/* harmony import */ var _tanstack_query_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @tanstack/query-core */ \"(ssr)/./node_modules/@tanstack/query-core/build/lib/queryObserver.mjs\");\n/* harmony import */ var _useBaseQuery_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./useBaseQuery.mjs */ \"(ssr)/./node_modules/@tanstack/react-query/build/lib/useBaseQuery.mjs\");\n'use client';\n\n\n\nfunction useQuery(arg1, arg2, arg3) {\n  const parsedOptions = (0,_tanstack_query_core__WEBPACK_IMPORTED_MODULE_0__.parseQueryArgs)(arg1, arg2, arg3);\n  return (0,_useBaseQuery_mjs__WEBPACK_IMPORTED_MODULE_1__.useBaseQuery)(parsedOptions, _tanstack_query_core__WEBPACK_IMPORTED_MODULE_2__.QueryObserver);\n}\n\n\n//# sourceMappingURL=useQuery.mjs.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvQHRhbnN0YWNrL3JlYWN0LXF1ZXJ5L2J1aWxkL2xpYi91c2VRdWVyeS5tanMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBO0FBQ3FFO0FBQ25COztBQUVsRDtBQUNBLHdCQUF3QixvRUFBYztBQUN0QyxTQUFTLCtEQUFZLGdCQUFnQiwrREFBYTtBQUNsRDs7QUFFb0I7QUFDcEIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yZWRkaXQtY2xvbmUvLi9ub2RlX21vZHVsZXMvQHRhbnN0YWNrL3JlYWN0LXF1ZXJ5L2J1aWxkL2xpYi91c2VRdWVyeS5tanM/ODQ1OCJdLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIGNsaWVudCc7XG5pbXBvcnQgeyBwYXJzZVF1ZXJ5QXJncywgUXVlcnlPYnNlcnZlciB9IGZyb20gJ0B0YW5zdGFjay9xdWVyeS1jb3JlJztcbmltcG9ydCB7IHVzZUJhc2VRdWVyeSB9IGZyb20gJy4vdXNlQmFzZVF1ZXJ5Lm1qcyc7XG5cbmZ1bmN0aW9uIHVzZVF1ZXJ5KGFyZzEsIGFyZzIsIGFyZzMpIHtcbiAgY29uc3QgcGFyc2VkT3B0aW9ucyA9IHBhcnNlUXVlcnlBcmdzKGFyZzEsIGFyZzIsIGFyZzMpO1xuICByZXR1cm4gdXNlQmFzZVF1ZXJ5KHBhcnNlZE9wdGlvbnMsIFF1ZXJ5T2JzZXJ2ZXIpO1xufVxuXG5leHBvcnQgeyB1c2VRdWVyeSB9O1xuLy8jIHNvdXJjZU1hcHBpbmdVUkw9dXNlUXVlcnkubWpzLm1hcFxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/@tanstack/react-query/build/lib/useQuery.mjs\n");
+
+/***/ }),
+
 /***/ "(ssr)/./node_modules/@tanstack/react-query/build/lib/useSyncExternalStore.mjs":
 /*!*******************************************************************************!*\
   !*** ./node_modules/@tanstack/react-query/build/lib/useSyncExternalStore.mjs ***!
